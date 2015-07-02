@@ -1,10 +1,11 @@
 class Exercise 
   
-  attr_accessor :name, :duration
+  attr_accessor :name, :duration, :image
   
-  def initialize(name, duration)
+  def initialize(name, duration, image)
     @name = name
     @duration = duration
+    @image = image
   end
   
 end

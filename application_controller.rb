@@ -18,7 +18,7 @@ class MyApp < Sinatra::Base
     @gender = params[:gender]
     @type = params[:type]
     
-    @teen_female_fat = [Exercise.new("Zumba", "45 mins"),
+    @teen_female_fat = [Exercise.new("Zumba", "45 mins", "http://zumbawithmegan.com/wordpress/wp-content/uploads/2013/04/ZumbaCharity-595.jpg"),
       Exercise.new("Pull-ups", "15"),
       Exercise.new("Tricep Dips", "10"),
       Exercise.new("Plank", "40 seconds"),
@@ -72,7 +72,7 @@ class MyApp < Sinatra::Base
     Exercise.new("Cycling", "30 mins"),
     Exercise.new("Rowing", "20 mins")]
     
-    @adult_female_fat = [Exercise.new("Zumba", "60 mins"),
+    @adult_female_fat = [Exercise.new("Zumba", "60 mins", "http://zumbawithmegan.com/wordpress/wp-content/uploads/2013/04/ZumbaCharity-595.jpg"),
       Exercise.new("Pull-ups", "25"),
       Exercise.new("Tricep Dips", "30"),
       Exercise.new("Plank", "45 seconds"),
@@ -127,7 +127,7 @@ class MyApp < Sinatra::Base
     Exercise.new("Cycling", "60 mins"),
     Exercise.new("Rowing", "40 mins")]
     
-    @middleage_female_fat = [Exercise.new("Zumba", "60 mins"),
+    @middleage_female_fat = [Exercise.new("Zumba", "60 mins", "http://zumbawithmegan.com/wordpress/wp-content/uploads/2013/04/ZumbaCharity-595.jpg"),
       Exercise.new("Push-ups", "15"),
       Exercise.new("Inverted Push-ups", "15"),
       Exercise.new("Plank", "35 seconds"),
