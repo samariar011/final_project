@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
 <form action="/exercise" method="post">
-  Age:
+ <div class="personalinfo">
+  <label>
+    Age:
+  </label>
   <input type="text" name="age">
-  <br>
-  Female:
-  <input type="radio" name="gender" value="female">
-  Male:
-  <input type="radio" name="gender" value="male">
   <br><br>
-  Burn Fat:
+  <label>
+    Female:
+  </label>
+  <input type="radio" name="gender" value="female">
+  <label>
+   Male:
+  </label>
+  <input type="radio" name="gender" value="male">
+ <br><br>
+ <label>
+   Burn Fat:
+ </label>
   <input type="radio" name="type" value="fat">
-  Gain Muscle:
+ <label> 
+   Gain Muscle:
+   </label>
   <input type="radio" name="type" value="muscle">
   <br><br>
   <button type="submit" id="submit">Submit</button>
+  </div>
 </form>
+  </body>
 </html>

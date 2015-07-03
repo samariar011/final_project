@@ -101,7 +101,7 @@ class MyApp < Sinatra::Base
     
     @adult_male_fat = [Exercise.new("Pull-ups", "20", "http://www.pullupbarsg.com/wp-content/uploads/2012/12/1B_Wide-Grip_Pull_Up_Article.jpg"),
       Exercise.new("Tricep Dips", "20", "http://www.pt-thailand.com/wp/wp-content/uploads/tricepsdip.jpg"),
-      Exercise.new("Spiderman Plank", "55 seconds", "http://www.thefitindian.com/wp-content/uploads/2015/02/walking-spiderman-workout-at-home.jpg",
+      Exercise.new("Spiderman Plank", "55 seconds", "http://www.thefitindian.com/wp-content/uploads/2015/02/walking-spiderman-workout-at-home.jpg"),
       Exercise.new("Mountainclimbers", "90 seconds", "http://www.menshealth.com/mhlists/cms/uploads/1/1001-mountain-climber-483x300.jpg"),
       Exercise.new("Speed-Skaters", "60", "http://www.menshealth.com/build-gold-medal-muscle/images/speedskating8.jpg"),
       Exercise.new("Jump-Rope", "5 mins", "http://www.tagtheworkout.com/wp-content/uploads/2014/08/male-jump-roping.jpg"),

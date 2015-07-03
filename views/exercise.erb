@@ -4,7 +4,7 @@
   <% @exercises.each do |exercise| %>
   <%= exercise.name %>
   <%= exercise.duration %>
-  <img src="<%exercise.image %>">
+<img src="<%=exercise.image %>" height="<%=exercise.image_height%>" width="<%=exercise.image_width%>">
   <br>
   <% end %>
 <% end %>

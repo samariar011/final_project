@@ -1,4 +1,26 @@
-.Exercise {
-  
-  
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One);
+.flow {text-align:center;
+  font-size:80px;
+  font-family:'Racing Sans One';
+  border-style: groove;
+    border-width: 70px;
+  padding-bottom: 240px;
+  border-color: #660033;
+  }
+body {background-color:#9999FF;
 }
+
+.personalinfo {
+  text-align:center;
+  font-size:100px;
+   font-family:'Montserrat';
+   border-style:ridge;
+  border-width: 70px;
+  padding-bottom: 240px;
+  border-color: #1A3300;
+  padding-top: 200px;
+}
+.logo {float:right; 
+}
+.run{float:left;}
