@@ -18,7 +18,7 @@ class MyApp < Sinatra::Base
     @gender = params[:gender]
     @type = params[:type]
     
-    @teen_female_fat = [Exercise.new("Zumba", "45 mins", "http://zumbawithmegan.com/wordpress/wp-content/uploads/2013/04/ZumbaCharity-595.jpg"),
+     @teen_female_fat = [Exercise.new("Zumba", "45 mins", "http://zumbawithmegan.com/wordpress/wp-content/uploads/2013/04/ZumbaCharity-595.jpg"),
       Exercise.new("Pull-ups", "15", "http://assets4.tribesports.com/system/challenges/images/000/036/918/original/20130607225532-this-one-s-for-girls-do-one-full-chin-up-from-a-de.jpg"),
       Exercise.new("Tricep Dips", "10", "http://media.tumblr.com/e5929abb4c657bfc26df3cd2adcfae04/tumblr_inline_mx43w3P8sE1rdu2za.jpg"),
       Exercise.new("Plank", "40 seconds", "http://www.self.com/wp-content/uploads/2011/07/right-way-to-plank-01-fiss431.jpg"),
